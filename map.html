@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_75544dd8e857e1c5efdb2c12bc7bd9a6 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_75544dd8e857e1c5efdb2c12bc7bd9a6" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_75544dd8e857e1c5efdb2c12bc7bd9a6 = L.map(
+                "map_75544dd8e857e1c5efdb2c12bc7bd9a6",
+                {
+                    center: [50.110924, 8.682127],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_73030d755ad5a0508c649e64192694ee = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_75544dd8e857e1c5efdb2c12bc7bd9a6);
+        
+    
+            var marker_a3d0b144f0ebc810ec288fd06fd46a85 = L.marker(
+                [50.097372976291446, 8.648544216229896],
+                {}
+            ).addTo(map_75544dd8e857e1c5efdb2c12bc7bd9a6);
+        
+    
+        var popup_b150e6638075efc1bdff9df867b20972 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7de6d963e643bcc2a1f5862893a0a162 = $(`<div id="html_7de6d963e643bcc2a1f5862893a0a162" style="width: 100.0%; height: 100.0%;">GATTUNG: Quercus, GA_LANG: Quercus robur, Stiel-Eiche, PFLANZJAHR: 1700</div>`)[0];
+                popup_b150e6638075efc1bdff9df867b20972.setContent(html_7de6d963e643bcc2a1f5862893a0a162);
+            
+        
+
+        marker_a3d0b144f0ebc810ec288fd06fd46a85.bindPopup(popup_b150e6638075efc1bdff9df867b20972)
+        ;
+
+        
+    
+    
+            var marker_6310307fe82b1bbba10609d24db80151 = L.marker(
+                [50.09733671033352, 8.648418646191171],
+                {}
+            ).addTo(map_75544dd8e857e1c5efdb2c12bc7bd9a6);
+        
+    
+        var popup_6688e0eccb0ece70b5a80d6db8f0387b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8bcc23332d654541a071a3fd4efc8e23 = $(`<div id="html_8bcc23332d654541a071a3fd4efc8e23" style="width: 100.0%; height: 100.0%;">GATTUNG: Quercus, GA_LANG: Quercus robur, Stiel-Eiche, PFLANZJAHR: 1700</div>`)[0];
+                popup_6688e0eccb0ece70b5a80d6db8f0387b.setContent(html_8bcc23332d654541a071a3fd4efc8e23);
+            
+        
+
+        marker_6310307fe82b1bbba10609d24db80151.bindPopup(popup_6688e0eccb0ece70b5a80d6db8f0387b)
+        ;
+
+        
+    
+    
+            var marker_66d672d5125f6ff563469ce8f8d98e47 = L.marker(
+                [50.125419803763066, 8.657037076233218],
+                {}
+            ).addTo(map_75544dd8e857e1c5efdb2c12bc7bd9a6);
+        
+    
+        var popup_7a88c284751b100330231838405c723e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bc98fa41039a857cbef8de9647bafa63 = $(`<div id="html_bc98fa41039a857cbef8de9647bafa63" style="width: 100.0%; height: 100.0%;">GATTUNG: Taxus, GA_LANG: Taxus baccata, Europäische Eibe, PFLANZJAHR: 1735</div>`)[0];
+                popup_7a88c284751b100330231838405c723e.setContent(html_bc98fa41039a857cbef8de9647bafa63);
+            
+        
+
+        marker_66d672d5125f6ff563469ce8f8d98e47.bindPopup(popup_7a88c284751b100330231838405c723e)
+        ;
+
+        
+    
+    
+            var marker_62ee638d1db49cd6c1bd6d61f38510ce = L.marker(
+                [50.123924555319995, 8.613941518469053],
+                {}
+            ).addTo(map_75544dd8e857e1c5efdb2c12bc7bd9a6);
+        
+    
+        var popup_f1ddee112cf3476912d120b5d9b21f9f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7d4f75f91a2b3844662486f45837482a = $(`<div id="html_7d4f75f91a2b3844662486f45837482a" style="width: 100.0%; height: 100.0%;">GATTUNG: Ginkgo, GA_LANG: Ginkgo biloba, Ginkgo, PFLANZJAHR: 1750</div>`)[0];
+                popup_f1ddee112cf3476912d120b5d9b21f9f.setContent(html_7d4f75f91a2b3844662486f45837482a);
+            
+        
+
+        marker_62ee638d1db49cd6c1bd6d61f38510ce.bindPopup(popup_f1ddee112cf3476912d120b5d9b21f9f)
+        ;
+
+        
+    
+    
+            var marker_0116afb92d013c03b8838383c5ce6d7a = L.marker(
+                [50.12252099268428, 8.657927542989498],
+                {}
+            ).addTo(map_75544dd8e857e1c5efdb2c12bc7bd9a6);
+        
+    
+        var popup_6f36456a635dfdb6ad4cd9487a8b029f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c4d90ea50402da3cd279afe2cdcf1b0 = $(`<div id="html_4c4d90ea50402da3cd279afe2cdcf1b0" style="width: 100.0%; height: 100.0%;">GATTUNG: Quercus, GA_LANG: Quercus robur -Fastigiata-, Säulen-Eiche, PFLANZJAHR: 1758</div>`)[0];
+                popup_6f36456a635dfdb6ad4cd9487a8b029f.setContent(html_4c4d90ea50402da3cd279afe2cdcf1b0);
+            
+        
+
+        marker_0116afb92d013c03b8838383c5ce6d7a.bindPopup(popup_6f36456a635dfdb6ad4cd9487a8b029f)
+        ;
+
+        
+    
+    
+            var marker_6870f79fa8152f3bc544727d0e1a0910 = L.marker(
+                [50.11671621352488, 8.68476944697147],
+                {}
+            ).addTo(map_75544dd8e857e1c5efdb2c12bc7bd9a6);
+        
+    
+        var popup_ee7fa3a6671e239762a9dd7b32126a84 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c7bbce458c84bd3b9c199915cc069432 = $(`<div id="html_c7bbce458c84bd3b9c199915cc069432" style="width: 100.0%; height: 100.0%;">GATTUNG: Morus, GA_LANG: Morus nigra,  Schwarzer Maulbeerbaum, PFLANZJAHR: 1766</div>`)[0];
+                popup_ee7fa3a6671e239762a9dd7b32126a84.setContent(html_c7bbce458c84bd3b9c199915cc069432);
+            
+        
+
+        marker_6870f79fa8152f3bc544727d0e1a0910.bindPopup(popup_ee7fa3a6671e239762a9dd7b32126a84)
+        ;
+
+        
+    
+    
+            var marker_b607b4ca786b6b5891c906289179eb22 = L.marker(
+                [50.12435155966034, 8.615883778715821],
+                {}
+            ).addTo(map_75544dd8e857e1c5efdb2c12bc7bd9a6);
+        
+    
+        var popup_e0522e573e9b6927b67e70b680908c1c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ccd52dec287c2f0228f87ecd3633a757 = $(`<div id="html_ccd52dec287c2f0228f87ecd3633a757" style="width: 100.0%; height: 100.0%;">GATTUNG: Quercus, GA_LANG: Quercus robur, Stiel-Eiche, PFLANZJAHR: 1770</div>`)[0];
+                popup_e0522e573e9b6927b67e70b680908c1c.setContent(html_ccd52dec287c2f0228f87ecd3633a757);
+            
+        
+
+        marker_b607b4ca786b6b5891c906289179eb22.bindPopup(popup_e0522e573e9b6927b67e70b680908c1c)
+        ;
+
+        
+    
+    
+            var marker_0d084e9b21541a360e0e13f8fcb5ce18 = L.marker(
+                [50.090072909363684, 8.679449577186501],
+                {}
+            ).addTo(map_75544dd8e857e1c5efdb2c12bc7bd9a6);
+        
+    
+        var popup_0604bd53489bd22692a839f408311ef5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_02727a50c9259af87c220af9794af084 = $(`<div id="html_02727a50c9259af87c220af9794af084" style="width: 100.0%; height: 100.0%;">GATTUNG: Quercus, GA_LANG: Quercus robur, Stiel-Eiche, PFLANZJAHR: 1795</div>`)[0];
+                popup_0604bd53489bd22692a839f408311ef5.setContent(html_02727a50c9259af87c220af9794af084);
+            
+        
+
+        marker_0d084e9b21541a360e0e13f8fcb5ce18.bindPopup(popup_0604bd53489bd22692a839f408311ef5)
+        ;
+
+        
+    
+    
+            var marker_2fa9f1011714ce43e27b37eaca6e6e69 = L.marker(
+                [50.110703051089686, 8.584561182845468],
+                {}
+            ).addTo(map_75544dd8e857e1c5efdb2c12bc7bd9a6);
+        
+    
+        var popup_4a66018243b5f0cc71c45a03a8bd2182 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_744fc232cc3f5d3230bc345758092e86 = $(`<div id="html_744fc232cc3f5d3230bc345758092e86" style="width: 100.0%; height: 100.0%;">GATTUNG: Quercus, GA_LANG: Quercus robur, Stiel-Eiche, PFLANZJAHR: 1800</div>`)[0];
+                popup_4a66018243b5f0cc71c45a03a8bd2182.setContent(html_744fc232cc3f5d3230bc345758092e86);
+            
+        
+
+        marker_2fa9f1011714ce43e27b37eaca6e6e69.bindPopup(popup_4a66018243b5f0cc71c45a03a8bd2182)
+        ;
+
+        
+    
+    
+            var marker_fb8f17f9aa59c32aacde2e8342abc087 = L.marker(
+                [50.15339639412532, 8.660808683836619],
+                {}
+            ).addTo(map_75544dd8e857e1c5efdb2c12bc7bd9a6);
+        
+    
+        var popup_f02f581107d83254f49b66b618d5612f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d6dcc5fcc4ee8020969744d7c83b9ad3 = $(`<div id="html_d6dcc5fcc4ee8020969744d7c83b9ad3" style="width: 100.0%; height: 100.0%;">GATTUNG: Tilia, GA_LANG: Tilia cordata, Winter-Linde, PFLANZJAHR: 1800</div>`)[0];
+                popup_f02f581107d83254f49b66b618d5612f.setContent(html_d6dcc5fcc4ee8020969744d7c83b9ad3);
+            
+        
+
+        marker_fb8f17f9aa59c32aacde2e8342abc087.bindPopup(popup_f02f581107d83254f49b66b618d5612f)
+        ;
+
+        
+    
+    
+            var marker_2cd5c69f6e1e770adfca70bab8aace9e = L.marker(
+                [50.123827379959806, 8.615936213349588],
+                {}
+            ).addTo(map_75544dd8e857e1c5efdb2c12bc7bd9a6);
+        
+    
+        var popup_a03755d0d91fb9a2288714343fcf80c8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f4b986877e39b4a4af629bff7da2c278 = $(`<div id="html_f4b986877e39b4a4af629bff7da2c278" style="width: 100.0%; height: 100.0%;">GATTUNG: Quercus, GA_LANG: Quercus robur, Stiel-Eiche, PFLANZJAHR: 1800</div>`)[0];
+                popup_a03755d0d91fb9a2288714343fcf80c8.setContent(html_f4b986877e39b4a4af629bff7da2c278);
+            
+        
+
+        marker_2cd5c69f6e1e770adfca70bab8aace9e.bindPopup(popup_a03755d0d91fb9a2288714343fcf80c8)
+        ;
+
+        
+    
+    
+            var marker_4fa1f9a487554966cb0103cf500dd8ac = L.marker(
+                [50.09580139888264, 8.547613753443326],
+                {}
+            ).addTo(map_75544dd8e857e1c5efdb2c12bc7bd9a6);
+        
+    
+        var popup_058cda4da9f94745c4e6a70c76ed6555 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c513c245de015471102859266420ac03 = $(`<div id="html_c513c245de015471102859266420ac03" style="width: 100.0%; height: 100.0%;">GATTUNG: Salix, GA_LANG: Salix fragilis, Bruch-Weide, PFLANZJAHR: 1806</div>`)[0];
+                popup_058cda4da9f94745c4e6a70c76ed6555.setContent(html_c513c245de015471102859266420ac03);
+            
+        
+
+        marker_4fa1f9a487554966cb0103cf500dd8ac.bindPopup(popup_058cda4da9f94745c4e6a70c76ed6555)
+        ;
+
+        
+    
+    
+            var marker_2f27cc8ff0a2349e69ea2b95a9dd2cdb = L.marker(
+                [50.111546370677594, 8.556215752660968],
+                {}
+            ).addTo(map_75544dd8e857e1c5efdb2c12bc7bd9a6);
+        
+    
+        var popup_d6b667937c534ae89659c6156f243e4b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c4a86260e23dd4e415a712ab4b5802cb = $(`<div id="html_c4a86260e23dd4e415a712ab4b5802cb" style="width: 100.0%; height: 100.0%;">GATTUNG: Quercus, GA_LANG: Quercus robur, Stiel-Eiche, PFLANZJAHR: 1807</div>`)[0];
+                popup_d6b667937c534ae89659c6156f243e4b.setContent(html_c4a86260e23dd4e415a712ab4b5802cb);
+            
+        
+
+        marker_2f27cc8ff0a2349e69ea2b95a9dd2cdb.bindPopup(popup_d6b667937c534ae89659c6156f243e4b)
+        ;
+
+        
+    
+    
+            var marker_decf3369c1d11cbe30676667906be587 = L.marker(
+                [50.12285778586993, 8.720415229819425],
+                {}
+            ).addTo(map_75544dd8e857e1c5efdb2c12bc7bd9a6);
+        
+    
+        var popup_ac28cf3ff626a1038020cce569e93bfd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e205ef686db774c72a2dd278508da871 = $(`<div id="html_e205ef686db774c72a2dd278508da871" style="width: 100.0%; height: 100.0%;">GATTUNG: Quercus, GA_LANG: Quercus robur, Stiel-Eiche, PFLANZJAHR: 1807</div>`)[0];
+                popup_ac28cf3ff626a1038020cce569e93bfd.setContent(html_e205ef686db774c72a2dd278508da871);
+            
+        
+
+        marker_decf3369c1d11cbe30676667906be587.bindPopup(popup_ac28cf3ff626a1038020cce569e93bfd)
+        ;
+
+        
+    
+    
+            var marker_81fd6393dc06bda75226c9af347bdb72 = L.marker(
+                [50.1229151641897, 8.612643328928902],
+                {}
+            ).addTo(map_75544dd8e857e1c5efdb2c12bc7bd9a6);
+        
+    
+        var popup_3860d870a75d4bf13e5dfdbd5b29a104 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cd2bd763b32ac923d998764b8182e670 = $(`<div id="html_cd2bd763b32ac923d998764b8182e670" style="width: 100.0%; height: 100.0%;">GATTUNG: Platanus, GA_LANG: Platanus acerifolia, Gewöhnliche Platane, PFLANZJAHR: 1809</div>`)[0];
+                popup_3860d870a75d4bf13e5dfdbd5b29a104.setContent(html_cd2bd763b32ac923d998764b8182e670);
+            
+        
+
+        marker_81fd6393dc06bda75226c9af347bdb72.bindPopup(popup_3860d870a75d4bf13e5dfdbd5b29a104)
+        ;
+
+        
+    
+    
+            var marker_691371d6615a23f5443de86912154ead = L.marker(
+                [50.133102714634894, 8.691401960695824],
+                {}
+            ).addTo(map_75544dd8e857e1c5efdb2c12bc7bd9a6);
+        
+    
+        var popup_705b74b4fe86d73ce84676658fe54fe5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1efeeeaf9e2fe02565ba397222577019 = $(`<div id="html_1efeeeaf9e2fe02565ba397222577019" style="width: 100.0%; height: 100.0%;">GATTUNG: Platanus, GA_LANG: Platanus acerifolia, Gewöhnliche Platane, PFLANZJAHR: 1809</div>`)[0];
+                popup_705b74b4fe86d73ce84676658fe54fe5.setContent(html_1efeeeaf9e2fe02565ba397222577019);
+            
+        
+
+        marker_691371d6615a23f5443de86912154ead.bindPopup(popup_705b74b4fe86d73ce84676658fe54fe5)
+        ;
+
+        
+    
+    
+            var marker_3e9ab6c17dc68a18d6641af113699170 = L.marker(
+                [50.12301711053082, 8.61176818163455],
+                {}
+            ).addTo(map_75544dd8e857e1c5efdb2c12bc7bd9a6);
+        
+    
+        var popup_1a609d3bcb30777257e9d09806ecef8b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8d701f5370eb79d99871840ebe993603 = $(`<div id="html_8d701f5370eb79d99871840ebe993603" style="width: 100.0%; height: 100.0%;">GATTUNG: Platanus, GA_LANG: Platanus acerifolia, Gewöhnliche Platane, PFLANZJAHR: 1809</div>`)[0];
+                popup_1a609d3bcb30777257e9d09806ecef8b.setContent(html_8d701f5370eb79d99871840ebe993603);
+            
+        
+
+        marker_3e9ab6c17dc68a18d6641af113699170.bindPopup(popup_1a609d3bcb30777257e9d09806ecef8b)
+        ;
+
+        
+    
+    
+            var marker_c3f76fb20cb59aa9f13bc0bd0fbd3a48 = L.marker(
+                [50.11223429049621, 8.582494161828413],
+                {}
+            ).addTo(map_75544dd8e857e1c5efdb2c12bc7bd9a6);
+        
+    
+        var popup_b2687679ddadb3696b58561a53cf20fe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_56854b8488aec04a878aeb6b8ccff69a = $(`<div id="html_56854b8488aec04a878aeb6b8ccff69a" style="width: 100.0%; height: 100.0%;">GATTUNG: Fagus, GA_LANG: Fagus sylvatica, Rotbuche, PFLANZJAHR: 1810</div>`)[0];
+                popup_b2687679ddadb3696b58561a53cf20fe.setContent(html_56854b8488aec04a878aeb6b8ccff69a);
+            
+        
+
+        marker_c3f76fb20cb59aa9f13bc0bd0fbd3a48.bindPopup(popup_b2687679ddadb3696b58561a53cf20fe)
+        ;
+
+        
+    
+    
+            var marker_a32233fdff3fc90f303b44e85025b96c = L.marker(
+                [50.122963738580445, 8.655616147454815],
+                {}
+            ).addTo(map_75544dd8e857e1c5efdb2c12bc7bd9a6);
+        
+    
+        var popup_019226ba3a7781b288aba0ffa27eacb6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6fa76e34a579f44c0a46a80c7f63da24 = $(`<div id="html_6fa76e34a579f44c0a46a80c7f63da24" style="width: 100.0%; height: 100.0%;">GATTUNG: Fagus, GA_LANG: Fagus sylvatica -Atropunicea-, Echte Blutbuche (veredelt), PFLANZJAHR: 1815</div>`)[0];
+                popup_019226ba3a7781b288aba0ffa27eacb6.setContent(html_6fa76e34a579f44c0a46a80c7f63da24);
+            
+        
+
+        marker_a32233fdff3fc90f303b44e85025b96c.bindPopup(popup_019226ba3a7781b288aba0ffa27eacb6)
+        ;
+
+        
+    
+    
+            var marker_4015be8bace6647de4cb087275ba9f95 = L.marker(
+                [50.129436084330926, 8.661475170876214],
+                {}
+            ).addTo(map_75544dd8e857e1c5efdb2c12bc7bd9a6);
+        
+    
+        var popup_39f794156bf186b4fb7b6b9f9233c00d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_813f2bb3544b63f6f1bdd90fab5de5ae = $(`<div id="html_813f2bb3544b63f6f1bdd90fab5de5ae" style="width: 100.0%; height: 100.0%;">GATTUNG: Quercus, GA_LANG: Quercus robur, Stiel-Eiche, PFLANZJAHR: 1818</div>`)[0];
+                popup_39f794156bf186b4fb7b6b9f9233c00d.setContent(html_813f2bb3544b63f6f1bdd90fab5de5ae);
+            
+        
+
+        marker_4015be8bace6647de4cb087275ba9f95.bindPopup(popup_39f794156bf186b4fb7b6b9f9233c00d)
+        ;
+
+        
+    
+</script>
+</html>
